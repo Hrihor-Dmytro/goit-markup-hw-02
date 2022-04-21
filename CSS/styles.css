@@ -34,7 +34,7 @@ button {
   text-decoration: none;
 }
 
-/* навигация */
+/* основная навигация сайта */
 
 .site-nav .link {
   color: var(--title-text-color);
@@ -60,22 +60,17 @@ button {
 .auth-nav .link:focus {
   color: var(--accent);
 }
-/* мой контент */
-
-.section-text {
-  color: var(--primery-text-color);
-}
-
 /* герой */
 .hero {
   background-color: #212121;
 }
 .hero-title {
   color: #ffffff;
-}
-/* футтер */
-.adress {
-  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 .button {
   color: var(--title-text-color);
@@ -84,6 +79,59 @@ button {
 .button.hero {
   background-color: var(--accent);
   color: var(--primeri-white-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+}
+/* преимущества */
+
+.section-header {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.section .text {
+  color: var(--primery-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+/* команда */
+.examples-work {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.7;
+  text-align: center;
+}
+.comand-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.comand .text {
+  color: var(--primery-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+/* футтер */
+.footer {
+  background-color: var(--title-text-color);
+}
+.location {
+  color: var(--primeri-white-color);
+}
+.adress {
+  font-style: normal;
+}
+.auth-nav .transparent {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.6);
 }
 /* доп разметка портфолио */
 
@@ -102,4 +150,13 @@ button {
 }
 .list-filter .text {
   color: var(--primery-text-color);
+}
+.list-filter .card {
+  font-size: 18px;
+  line-height: 2;
+}
+.list-filter .text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
 }
