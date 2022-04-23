@@ -88,32 +88,27 @@ button {
 /* преимущества */
 
 .section-header {
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
 }
 .section .text {
   color: var(--primery-text-color);
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
 }
 /* команда */
 .examples-work {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.7;
   text-align: center;
 }
 .comand-name {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
 }
 .comand .text {
   color: var(--primery-text-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
 }
