@@ -5,6 +5,7 @@
   --primeri-white-color: #ffffff;
   --optional-bt-color: #f5f4fa;
   --tranparanted: rgba(255, 255, 255, 0.6);
+  --pouring: #2f303a;
 }
 
 /* основные стили */
@@ -56,7 +57,7 @@ body {
 
 /* герой */
 .hero {
-  background-color: var(--title-text-color);
+  background-color: var(--pouring);
 }
 .hero-title {
   color: var(--primeri-white-color);
@@ -86,6 +87,7 @@ body {
 .section-header {
   font-size: 14px;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 .section-text {
   color: var(--primery-text-color);
@@ -100,6 +102,9 @@ body {
   line-height: 1.7;
   text-align: center;
 }
+.example-cards {
+  background-color: var(--primeri-white-color);
+}
 .comand-name {
   font-weight: 500;
   font-size: 16px;
@@ -113,7 +118,7 @@ body {
 
 /* футтер */
 .footer {
-  background-color: var(--title-text-color);
+  background-color: var(--pouring);
 }
 .location {
   color: var(--primeri-white-color);
@@ -122,7 +127,6 @@ body {
   font-style: normal;
 }
 .contacts .transparent {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   color: var(--tranparanted);
@@ -145,6 +149,7 @@ body {
   border: 0;
   border-radius: 4px;
 }
+.current-button,
 .button-filtr:hover,
 .button-filtr:focus {
   background-color: var(--accent);
